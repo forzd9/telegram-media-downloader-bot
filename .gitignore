@@ -1,0 +1,12 @@
+
+
+.env
+.env.*
+!.env.example
+*.session
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+
+*.env

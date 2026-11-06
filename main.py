@@ -28,7 +28,7 @@ from telegram.ext import (
 from telegram.constants import ParseMode
 
 # ==================== الإعدادات الأساسية ====================
-BOT_TOKEN = "7370155559:AAF4jH4f7db_8QZYqoay_tWv1-CMXpCNgrY"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 6891530912
 DATABASE_NAME = "bot_database.db"
 DOWNLOAD_PATH = "downloads"

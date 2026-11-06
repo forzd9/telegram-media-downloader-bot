@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))  # Your Telegram user ID
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))  # Your Telegram user ID
 DATABASE_NAME = "bot_database.db"
 DOWNLOAD_PATH = "downloads"
 MAX_FILE_SIZE_MB = 50
