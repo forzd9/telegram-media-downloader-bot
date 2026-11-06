@@ -56,3 +56,7 @@ python main.py
 ## حدود المراجعة
 
 هذا التوثيق يصف ما ظهر في الملفات فقط. دعم المواقع الفعلي، وصحة الاستيرادات، وإعداد البيئة، وأمن البوت، وسلوك التنظيف، والجاهزية للإنتاج لم تُختبر. لا توجد ملفات اختبارات ظاهرة ضمن الملفات المفحوصة.
+
+## Secure configuration
+
+Copy `.env.example` to `.env` locally and provide the required bot and administrator settings. The previously tracked local environment file was removed from the working tree and is now ignored. Do not commit `.env`, session files, or API credentials.
